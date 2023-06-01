@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Founder;
+    src: url('/assets/FoundersGroteskCondensed-Bold.woff2');
+}
+@font-face {
+    font-family: CardinalI;
+    src: url('/assets/cardinalfruitweb-italic.woff2');
+}
+@font-face {
+    font-family: CardinalR;
+    src: url('/assets/cardinalfruitweb-regular.woff2');
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#main-p {
+    width: 100%;
+    height: 100vh;
+    background-color: #f2a0a0;
+    /* background-color: #c88686; */
+}
+
+#main {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #f2a0a0;
+    /* background-color: #6e2e2e; */
+}
+
+#top {
+    position: absolute;
+    top: 0%; 
+    width: 100%;
+    height: 50vh;
+    background-color: #fff;
+    z-index: 9;
+    overflow: hidden;
+}
+
+#center {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* transform-origin: center;  */
+    overflow: hidden;
+    background-color: #333; 
+}
+#bottom {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 50vh;
+    background-color: #fff;
+    overflow: hidden;
+}
+#main h1 {
+    font-family: Founder;
+    font-size: 22vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #0d0d0d;
+    transform: translate(-50%, -50%);
+}
+#top-h {
+    bottom: 50%;
+}
+
+#bottom-h {
+    top: 1% !important;
+}
+
+.content {
+ 
+    margin-top: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    /* background-color: #f2a0a0; */
+    font-family: "CardinalR";
+    font-size: 4vw;
+    color: #fff;
+} 
+/* 
+*/
+
+
+
+
+
+
