@@ -14,7 +14,7 @@ let tl = gsap.timeline({
 tl.to("#top", {top: "-50%"},'a')
 .to("#bottom", { bottom: "-50%"},'a')  
 .to("#top-h", {top: "80%"},'a')
-.to("#bottom-h", { bottom: "-80%"},'a')  
+.to("#bottom-h", { bottom: "-70%"},'a')  
 .to(".content", {marginTop: "0%"},'a')
 
 
